@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Menu = () => {
+const QuienesSomos = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Menu = () => {
     );
 };
 
-export default Menu;
+export default QuienesSomos;
