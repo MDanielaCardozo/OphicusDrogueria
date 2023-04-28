@@ -8,6 +8,7 @@ import Distribucion from './components/views/Distribucion';
 import SumateAlEquipo from './components/views/SumateAlEquipo';
 import Contacto from './components/views/Contacto';
 import Footer from './components/common/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
