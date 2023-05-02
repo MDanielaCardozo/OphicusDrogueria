@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
 .portada {
     background: url('../../img/labOphicus.jpeg') no-repeat center center/cover;
     width: 100%;
@@ -5,3 +11,35 @@
     margin: 0;
     padding: 0;
 }
+
+.servicios {
+    background-color: rgba(107, 172, 1, 0.171);
+    color: rgb(7, 116, 7);
+}
+
+.cardInfo {
+    width: 330px;
+    height: auto;
+    margin: 5px;
+    border-radius: 20px;
+    color: #7c7a7a;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.icono {
+    width: 100px;
+    height: 100px;
+    margin: 9px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 50px;
+    transition: all .9s ease;
+}
+
+.icon{
+    color: rgb(7, 116, 7);
+    font-size: 45px;
+    padding: 21px;
+}
+
