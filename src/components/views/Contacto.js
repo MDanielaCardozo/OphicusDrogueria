@@ -17,15 +17,15 @@ const Contacto = () => {
                     <Col lg={6} md={6} sm={12} className='my-4'>
                     <div className='d-flex'>
                         <FontAwesomeIcon icon={faLocationDot} className='iconoContacto mx-4'/>
-                        <p>Ayacucho 830, San Miguel de Tucumán. Argentina.</p>
+                        <p>Ayacucho 830, San Miguel de Tucumán(4000). Argentina.</p>
                     </div>
                     <div className='d-flex'>
                         <FontAwesomeIcon icon={faEnvelope} className='iconoContacto mx-4'/>
-                        <p>drogueriaophicus@gmail.com</p>
+                        <p>drogueriaophicus@hotmail.com</p>
                     </div>
                     <div className='d-flex'>
                         <FontAwesomeIcon icon={faPhone} className='iconoContacto mx-4'/>
-                        <p>381-6833503</p>
+                        <p>381-842079</p>
                     </div>
                     </Col>
                     <Col lg={6} md={6} sm={12}>
@@ -33,9 +33,9 @@ const Contacto = () => {
                             <Form.Group className='my-4'>
                                 <Form.Label>Nombre Completo*</Form.Label>
                                 <Form.Control type='text' placeholder='Nombre Apellido'/>
-                                <Form.Label>Email*</Form.Label>
+                                <Form.Label className='my-2'>Email*</Form.Label>
                                 <Form.Control type='text' placeholder='Ej: pilargarcia@gmail.com'/>
-                                <Form.Label>Mensaje*</Form.Label>
+                                <Form.Label className='my-2'>Mensaje*</Form.Label>
                                 <Form.Control as='textarea' rows={4}/>
                                 <Button variant='outline-light' className='my-3 ms-1'>Enviar</Button>
                             </Form.Group>
