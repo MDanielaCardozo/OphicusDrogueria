@@ -11,7 +11,7 @@ const Contacto = () => {
                 <h2>Contacto</h2>
                 <hr />
             </section>
-            <section className='container'>
+            <section className='container mt-5'>
                 <Row>
                     <Col lg={6} md={6} sm={12} className='my-4'>
                     <div className='d-flex'>
