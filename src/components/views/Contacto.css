@@ -1,0 +1,20 @@
+.contacto {
+    background: rgba(88, 88, 88, 0.5);
+    color: #fff;
+    padding-top: 180px;
+}
+
+.iconoContacto {
+    font-size: 20px;
+}
+
+.contactoBox {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
