@@ -1,7 +1,6 @@
 .contacto {
     background: rgba(88, 88, 88, 0.5);
     color: #fff;
-    padding-top: 180px;
 }
 
 .iconoContacto {
@@ -17,4 +16,11 @@
     margin-bottom: 30px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.portadaContacto {
+    background: url("../../img/ophicusContact.jpeg") no-repeat center center/cover;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
 }
