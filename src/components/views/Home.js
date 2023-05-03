@@ -12,7 +12,8 @@ const Home = () => {
       </section>
       <section className="servicios py-5">
         <div className="container text-center">
-          <h2>Nuestros Servicios</h2>
+          <h2 className="my-4">Nuestros Servicios</h2>
+          <hr />
           <Row className="w-100">
             <Col sm={12} md={4} lg={4} >
               <div className="cardInfo w-100 p-2">

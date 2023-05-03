@@ -13,8 +13,8 @@
 }
 
 .servicios {
-    background-color: rgba(107, 172, 1, 0.171);
-    color: rgb(7, 116, 7);
+    background: rgba(88, 88, 88, 0.5);
+    color: #fff;
 }
 
 .cardInfo {
@@ -25,6 +25,16 @@
     color: #7c7a7a;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
+    animation: mySplice;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-duration: 1900ms;
+}
+
+@keyframes mySplice{
+    from{margin-top: 100%;}
+    to{margin-bottom: 0%;}
 }
 
 .icono {
