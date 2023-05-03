@@ -7,6 +7,7 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 const Contacto = () => {
     return (
         <div className='contacto'>
+            <section className='portadaContacto'></section>
             <section className='container text-center'>
                 <h2>Contacto</h2>
                 <hr />
