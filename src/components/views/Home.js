@@ -14,7 +14,7 @@ const Home = () => {
         <div className="container text-center">
           <h2 className="my-4">Nuestros Servicios</h2>
           <hr />
-          <Row className="w-100">
+          <Row className="w-100 mt-5">
             <Col sm={12} md={4} lg={4} >
               <div className="cardInfo w-100 p-2">
                 <div className="icono">

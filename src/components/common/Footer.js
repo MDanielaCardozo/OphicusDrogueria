@@ -31,22 +31,22 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className=" fw-bold mb-4 fs-5">Conócenos</h6>
               <p>
-                <Link to="/contacto" className="fs-6 text-reset subrayado">
+                <Link to="/contacto" className="fs-6 text-reset subrayado hovMenu">
                   Contactanos
                 </Link>
               </p>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado">
+                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
                   Informacion legal
                 </Link>
               </p>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado">
+                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
                   Terminos y condiciones de uso
                 </Link>
               </p>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado">
+                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
                   Politica de privacidad
                 </Link>
               </p>
@@ -54,17 +54,17 @@ const Footer = () => {
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="fw-bold mb-4 fs-5">Redes sociales</h6>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado">
+                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
                   <FontAwesomeIcon icon={faFacebook} /> Facebook
                 </Link>
               </p>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado">
+                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
                   <FontAwesomeIcon icon={faInstagram} /> Instagram
                 </Link>
               </p>
               <p>
-                <Link to="/error" className="fs-6 text-reset subrayado">
+                <Link to="/error" className="fs-6 text-reset subrayado hovMenu">
                   <FontAwesomeIcon icon={faTwitter} /> Twitter
                 </Link>
               </p>
