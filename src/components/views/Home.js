@@ -6,7 +6,7 @@ import { faBoxesPacking, faTruckFast, faTruckRampBox } from "@fortawesome/free-s
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <section className="portada text-light">
         {/* <h1 className=''>Ophicus</h1> */}
       </section>
@@ -54,7 +54,7 @@ const Home = () => {
           </Row>
         </div>
       </section>
-    </div>
+    </main>
   );
 };
 
