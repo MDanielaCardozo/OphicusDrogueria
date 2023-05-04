@@ -15,7 +15,7 @@ function CollapsibleExample() {
   return (
     <Navbar expanded={expanded} expand="lg" variant="dark" className='glass' fixed='top'>
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} onClick={() => setExpanded(false)} to="/">
             <img src={Logo} alt="" width="195px" />
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
