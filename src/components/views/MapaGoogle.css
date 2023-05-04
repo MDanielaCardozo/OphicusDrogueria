@@ -1,0 +1,15 @@
+.mapResponsive {
+    overflow: hidden;
+    padding: 15%;
+    position: relative;
+    height: 0;
+}
+
+.mapResponsive iframe {
+    left: 0;
+    top: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

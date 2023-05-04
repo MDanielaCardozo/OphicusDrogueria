@@ -3,12 +3,13 @@ import "../views/Contacto.css";
 import { Col, Form, Row, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+import MapaGoogle from './MapaGoogle';
 
 const Contacto = () => {
     return (
         <div className='contacto'>
             <section className='portadaContacto'></section>
-            <section className='container text-center'>
+            <section className='container text-center mb-5'>
                 <h2>Contacto</h2>
                 <hr />
             </section>
@@ -42,6 +43,9 @@ const Contacto = () => {
                         </div>
                     </Col>
                 </Row>
+            </section>
+            <section className='container py-5'>
+                <MapaGoogle></MapaGoogle>
             </section>
         </div>
     );
