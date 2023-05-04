@@ -45,6 +45,10 @@ const Contacto = () => {
                 </Row>
             </section>
             <section className='container py-5'>
+                <div className='text-center mb-5'>
+                <h2>Ubicación</h2>
+                <hr />
+                </div>
                 <MapaGoogle></MapaGoogle>
             </section>
         </div>

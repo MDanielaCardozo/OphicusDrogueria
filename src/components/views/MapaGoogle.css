@@ -3,6 +3,7 @@
     padding: 15%;
     position: relative;
     height: 0;
+    border-radius: 15px;
 }
 
 .mapResponsive iframe {
