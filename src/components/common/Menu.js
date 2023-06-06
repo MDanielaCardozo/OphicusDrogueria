@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from "../../img/ophicusLogoHome.png";
+import Logo from "../../img/logoOphicusSrl.png";
 import "../common/Menu.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +16,7 @@ function CollapsibleExample() {
     <Navbar expanded={expanded} expand="lg" variant="dark" className='glass' fixed='top'>
       <Container>
         <Navbar.Brand as={Link} onClick={() => setExpanded(false)} to="/">
-            <img src={Logo} alt="" width="195px" />
+            <img src={Logo} alt="" width="250px" />
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

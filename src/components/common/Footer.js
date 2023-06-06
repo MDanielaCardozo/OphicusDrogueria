@@ -7,7 +7,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../../img/ophicusLogoHome.png";
+import Logo from "../../img/logoOphicusSrl.png";
 import "../common/Footer.css";
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
                 <img
                   alt="Logo Cámara de Droguerías de Tucumán"
                   src={Logo}
-                  width="195px"
+                  width="280px"
                   height="auto"
                   className="my-0 py-0 ps-auto logoImg"
                 />
